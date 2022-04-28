@@ -6,7 +6,8 @@ function formSubmit(evt) {
 if (email.value === "" || password.value === "") {
     alert(`Input can't be empty`);
 }
-console.log(`Email: ${email.value}, Password: ${password.value}`);
+
+console.log({ Email: email.value, Password: password.value });
     evt.currentTarget.reset();
 }
 
